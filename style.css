@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: #FFF8F3;
+}
+
+/* nav related styles */
+header nav h3{
+ 
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+header nav h3>span{
+    color: #FD6E0A;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px 0 200px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 51px;
+}
+header nav a{
+    color: #474747;
+    text-decoration: none;
+}
+
+header nav button, header a{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header nav button{
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-greeting{
+    margin: 0;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-title{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    color: #181818;
+}
+.banner p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+.cv-button{
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    border: none;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.contact-button{
+    margin-top: 30px;
+    width: 160px;
+    height: 64px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+}
