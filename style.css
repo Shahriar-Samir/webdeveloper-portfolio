@@ -141,6 +141,7 @@ main{
     font-weight: 700;
     margin: 0;
     margin-bottom: 30px;
+    color: #181818;
 
 }
 
@@ -170,4 +171,170 @@ main{
 .about table th{
     font-weight: 700;
     color: #474747;
+}
+
+.resume-title{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #181818;
+}
+
+.resume-details{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 909px;
+    margin: auto;
+    color: #757575;
+}
+
+.techs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.tech{
+
+    width: 267px;
+    height: 377px;
+    padding: 30px 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px rgba(97, 97, 97, 0.219);
+    box-sizing: border-box;
+    
+}
+
+.tech h1{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #181818;
+}
+
+.tech p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.summary-title{
+   text-align: center;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 700;
+   color: #181818;
+}
+
+.summary-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-education{
+    width: 511px;
+}
+.summary-experience{
+    width: 511px;
+}
+
+.summary-details h1{
+    color: #474747;
+}
+
+.summary-details h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.summary-details h3{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color: #757575;
+}
+
+.summary-details p{
+    font-size: 16px;
+   font-weight: 400;
+   color: #757575;
+}
+
+footer{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.footer-section{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 130px;
+}
+
+footer .section-1{
+    margin-right: 147px;
+   
+}
+
+
+footer .section-1 p{
+   width: 562px;
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+}
+
+footer form input{
+    width: 461px;
+    height: 64px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: none;
+    margin-top: 28px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+footer form textarea{
+    font-family: Open Sans;
+    width: 461px;
+    height: 180px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    box-sizing: border-box;
+    padding-top: 18px;
+    padding-left: 30px;
+    border: none;
+}
+footer form>input[type="submit"]{
+    margin: 0;
+    margin-top: 42px;
+    width: 150px;
+    height: 64px;
+    padding: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
 }
